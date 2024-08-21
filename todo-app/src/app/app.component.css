@@ -1,0 +1,14 @@
+.content {
+    padding: 16px;
+  }
+  
+  .spacer {
+    flex: 1 1 auto;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+    margin: 0 8px;
+  }
+  

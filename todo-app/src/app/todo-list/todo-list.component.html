@@ -1,0 +1,17 @@
+<div class="container">
+    <h1>Todo List</h1>
+    <div class="todo-list">
+      <mat-card *ngFor="let todo of todos" class="todo-card">
+        <div class="todo-item">
+          <div class="todo-text">
+            <span class="todo-title">{{ todo.title }}</span>
+            <span class="todo-description">{{ todo.description }}</span>
+          </div>
+          <button mat-icon-button color="warn" (click)="deleteTodo(todo._id)">
+            <mat-icon>delete</mat-icon>
+          </button>
+        </div>
+      </mat-card>
+    </div>
+  </div>
+  
